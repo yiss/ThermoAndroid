@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thermoandroid.MainActivity">
+
+
+    <TextView
+        android:text="0.0 °C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salonText"
+        android:layout_marginTop="24dp"
+        android:id="@+id/salonValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:text="@string/chambre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salonValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:id="@+id/chambreText"
+        android:textStyle="normal|bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:text="0.0 °C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chambreText"
+        android:layout_marginTop="24dp"
+        android:id="@+id/chambreValue"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/salon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:id="@+id/salonText"
+        android:textStyle="normal|bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

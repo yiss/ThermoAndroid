@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Thermo Android</string>
+    <string name="chambre1">Chambre</string>
+    <string name="salon">Salon</string>
+    <string name="action_refresh">Actualiser</string>
+</resources>
